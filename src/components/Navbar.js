@@ -28,11 +28,11 @@ const Navbar = () => {
                     <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/project">Project</NavLink>
+                    <NavLink to="/project">Projects</NavLink>
                 </li>
                 <li>
                     <NavLink to="/about">About</NavLink>
-                </li>
+                </li> 
                 
             </ul>
             <div className="hamburger" onClick={handleClick}>

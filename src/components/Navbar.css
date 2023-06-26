@@ -55,6 +55,12 @@
 }
 
 @media screen and (max-width:1040px) {
+    .rachna{
+        margin: 0rem 3rem;
+        color:#fff;
+        font-size:2rem;
+    
+    }
     .nav-menu {
         flex-direction: column;
         justify-content: center;

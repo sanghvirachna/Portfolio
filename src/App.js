@@ -2,22 +2,14 @@ import './App.css';
 import Home from './components/Home';
 import About from './components/About';
 import Project from './components/Project';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import { useState, useEffect, CSSProperties } from "react";
-import ClipLoader from "react-spinners/ClipLoader";
+import { useState, useEffect } from "react";
 import BeatLoader from "react-spinners/BeatLoader";
 
-const override: CSSProperties = {
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  borderColor: "#fff",
-};
 
 function App() {
   const [loading, setLoading] = useState(true);
-  const [color, setColor] = useState("#1b212b");
 
   useEffect(() => {
     const timer = setTimeout(() => {

@@ -3,7 +3,6 @@ import './About.css';
 import Programmer from '../assets/bighead.svg';
 import { DiReact, DiHtml5, DiJava, DiPython, DiCss3, DiJavascript1 } from 'react-icons/di';
 import { Icon } from '@iconify/react';
-import Project from './Project';
 import Fade from 'react-reveal/Fade'
 import Zoom from 'react-reveal/Zoom'
 
